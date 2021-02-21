@@ -2,7 +2,6 @@
 *created by: ccs.uoguelph*
 *modified by : Cloud-Temple Grand Ouest*
 
-[this zimlet](https://www.zimbra.org/extend/items/view/sender-blocker) was no longer kept up to date.
 **It is now fully compatible with zimbra 8.x and +. **
 
 # What is it ?  
