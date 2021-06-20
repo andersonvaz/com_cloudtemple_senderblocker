@@ -2,7 +2,7 @@
 *created by: ccs.uoguelph*
 *modified by : Cloud-Temple Grand Ouest*
 
-**It is now fully compatible with zimbra 8.x and +. **
+**Tested on 8.8.15 patch 22**
 
 # What is it ?  
 
@@ -25,3 +25,13 @@ Via the CLI for now:
 
       zmprov ga user@example.com amavisBlacklistSender
       zmprov ga user@example.com amavisWhitelistSender
+
+# Installing
+
+      su zimbra
+      cd /tmp
+      wget https://github.com/Zimbra-Community/com_cloudtemple_senderblocker/releases/download/1.0.1/com_cloudtemple_senderblocker.zip
+      zmzimletctl deploy com_cloudtemple_senderblocker.zip
+      
+ Then go to the Admin Console and make sure to enable the Zimlet, Configure -> Class Of Service -> default (or any cos you want) -> Zimlets -> com_cloudtemple_senderblocker and check Available and Enabled.
+
