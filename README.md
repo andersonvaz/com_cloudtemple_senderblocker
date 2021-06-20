@@ -1,6 +1,7 @@
 # Sender Blocker
 *created by: ccs.uoguelph*
-*modified by : Cloud-Temple Grand Ouest*
+*modified by: Cloud-Temple Grand Ouest*
+*maintained by: Zeta Alliance*
 
 **Tested on 8.8.15 patch 22**
 
